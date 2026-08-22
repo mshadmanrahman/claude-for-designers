@@ -21,8 +21,8 @@ A consistent scale, not arbitrary values. Use a base unit (4px or 8px) and name 
 **Border radius**
 Small (input, button), medium (card), large (modal, sheet), full (pill, avatar).
 
-**Shadow**
-Flat (no shadow), subtle (card), medium (dropdown), high (modal).
+**Motion**
+A duration scale (fast, default, slow) and one easing curve. Justify the slow end against the slowest device your user is actually holding.
 
 Output as a ready-to-paste CSS `:root` block. Include a brief comment above each category explaining the system logic. No inline documentation that pads length; every comment must earn its space.
 

@@ -61,14 +61,14 @@ Answer each question in place. Fill the tables with your own values, from your o
 
 | Token | Value | Use for |
 |---|---|---|
-| `bg.surface` |  |  |
-| `bg.inverse` |  |  |
-| `text.primary` |  |  |
-| `text.secondary` |  |  |
-| `text.muted` |  |  |
-| `accent.primary` |  |  |
-| `accent.danger` |  |  |
-| `border.default` |  |  |
+| `--surface` |  |  |
+| `--surface-inverse` |  |  |
+| `--text-primary` |  |  |
+| `--text-secondary` |  |  |
+| `--text-muted` |  |  |
+| `--action` |  |  |
+| `--destructive` |  |  |
+| `--border` |  |  |
 
 ### Type
 
@@ -76,11 +76,11 @@ Answer each question in place. Fill the tables with your own values, from your o
 
 | Token | Size | Weight | Line height | Use for |
 |---|---|---|---|---|
-| `text.display` |  |  |  |  |
-| `text.heading` |  |  |  |  |
-| `text.body` |  |  |  |  |
-| `text.body.small` |  |  |  |  |
-| `text.label` |  |  |  |  |
+| `--text-display` |  |  |  |  |
+| `--text-heading` |  |  |  |  |
+| `--text-body` |  |  |  |  |
+| `--text-body-small` |  |  |  |  |
+| `--text-label` |  |  |  |  |
 
 ### Spacing and radius
 
@@ -88,15 +88,15 @@ Answer each question in place. Fill the tables with your own values, from your o
 
 | Token | Value |
 |---|---|
-| `space.1` |  |
-| `space.2` |  |
-| `space.3` |  |
-| `space.4` |  |
-| `space.6` |  |
-| `space.8` |  |
-| `radius.sm` |  |
-| `radius.md` |  |
-| `radius.full` |  |
+| `--space-1` |  |
+| `--space-2` |  |
+| `--space-3` |  |
+| `--space-4` |  |
+| `--space-6` |  |
+| `--space-8` |  |
+| `--radius-sm` |  |
+| `--radius-md` |  |
+| `--radius-full` |  |
 
 ### Motion
 
@@ -104,9 +104,9 @@ Answer each question in place. Fill the tables with your own values, from your o
 
 | Token | Duration | Easing | Use for |
 |---|---|---|---|
-| `motion.fast` |  |  |  |
-| `motion.default` |  |  |  |
-| `motion.slow` |  |  |  |
+| `--motion-fast` |  |  |  |
+| `--motion-default` |  |  |  |
+| `--motion-slow` |  |  |  |
 
 ### The one rule your system has to enforce
 

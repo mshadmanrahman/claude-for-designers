@@ -8,20 +8,20 @@ Every class from Class 2 to Class 6 runs one or two of them. If you skip a step,
 
 | Step | Command | What it does | Class | Where the output goes |
 |---|---|---|---|---|
-| 1 | `/grill-me` | Interrogates you until the brief has no soft spots left. | 2 | `principles/claude-contract.md` (C2), then `projects/edubridge/brief-v3-interrogated.md` (C3) |
-| 2 | `/design-brief` | Turns the interrogation into one source of truth for the project. | 3 | `projects/edubridge/brief-v3-interrogated.md` |
+| 1 | `/grill-me` | Interrogates you until the brief has no soft spots left. | 2 | `principles/claude-contract.md` (C2), then `projects/<yours>/brief-v3-interrogated.md` (C3) |
+| 2 | `/design-brief` | Turns the interrogation into one source of truth for the project. | 3 | `projects/<yours>/brief-v3-interrogated.md` |
 | 3 | `/information-architecture` | The journey first, then every screen named against the step it serves, plus navigation and hierarchy. | 6 | Two files, both written for you: `projects/<yours>/ia-map.md` is the deliverable, `ia-map.html` beside it is the diagram |
-| 4 | `/design-tokens` | Fixes color, type, spacing, radius and motion as named tokens. | 5 | `projects/edubridge/tokens.md` |
+| 4 | `/design-tokens` | Fixes color, type, spacing, radius and motion as named tokens. | 5 | `projects/<yours>/tokens.md` |
 | 5 | `/brief-to-tasks` | Breaks the brief into tasks, each with a "done when" line. | 6 | `projects/<yours>/tasks.md` |
-| 6 | `/frontend-design` | Builds the screen from the brief and the tokens, not from a guess. | 6 | `projects/edubridge/my-booking-screen.html` (never `booking-screen.html`, that one is read-only reference) |
-| 7 | `/design-review` | Reviews the screen on layout, accessibility, responsiveness, dark mode, edge cases. | 4 | `projects/edubridge/critique-notes.md` |
+| 6 | `/frontend-design` | Builds the screen from the brief and the tokens, not from a guess. | 6 | `projects/<yours>/my-booking-screen.html` (never `booking-screen.html`, that one is read-only reference) |
+| 7 | `/design-review` | Reviews the screen on layout, accessibility, responsiveness, dark mode, edge cases. | 4 | `projects/<yours>/critique-notes.md` |
 
 ## The two extras
 
 | Command | What it does | Class | Where the output goes |
 |---|---|---|---|
-| `/heuristic-evaluation` | Audits against Nielsen's ten heuristics, evidence and a fix per finding. | 4 | `projects/edubridge/critique-notes.md` |
-| `/persona-acid-test` | Reads the work three times: confused user, skeptical engineer, impatient PM. | 3 | `projects/edubridge/brief-v3-interrogated.md` (C3), then `critique-notes.md` when you rerun it on the built screen |
+| `/heuristic-evaluation` | Audits against Nielsen's ten heuristics, evidence and a fix per finding. | 4 | `projects/<yours>/critique-notes.md` |
+| `/persona-acid-test` | Reads the work three times: confused user, skeptical engineer, impatient PM. | 3 | `projects/<yours>/brief-v3-interrogated.md` (C3), then `critique-notes.md` when you rerun it on the built screen |
 
 ## The repair command
 
@@ -37,7 +37,7 @@ Use it at eleven at night when you are stuck on setup and the chat is quiet. It 
 
 Steps 1 to 7 are the order you run these on a real project, start to finish. The course order differs in one place: `/design-review` and `/heuristic-evaluation` arrive in Class 4, before information architecture and tokens in Class 5.
 
-That is deliberate. Class 4 is where you learn to critique, using a throwaway screen generated from the confused brief. Critique is the skill everything after it depends on. You run `/design-review` again in Class 6, on the screen you actually ship, and that is the run that counts.
+That is deliberate. Class 4 is where you learn to critique, using a throwaway screen generated from the confused brief. Critique is the skill everything after it depends on. No skill repeats the pass in Class 6, but the judgment does: you read the screen you actually ship the same way, this time with nobody prompting you.
 
 ## Where the output goes, and why that column matters most
 

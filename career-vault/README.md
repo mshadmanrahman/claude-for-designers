@@ -37,6 +37,12 @@ All six follow the same shape, the same as every other workbook file in this cou
 
 That last part matters. Once you have filled in `YOUR TURN`, delete everything above it. The example and the instructions were for you, not for Claude, and leaving them in place means Claude reads course furniture as if it were facts about you. A positioning file that still contains the example designer's positioning will produce a bio about someone who does not exist.
 
+## After Class 8: `/application-pack`
+
+Once the six files are filled, the vault has a use beyond the interview. Paste a job post under `/application-pack` and Claude builds a folder at `career-vault/applications/<company>-<role>/` with three files: a resume cut and ordered for that post from `03`, a cover letter under 250 words that opens on a decision from `02`, and a call sheet for the first HR call with your thirty-second pitch, the AI answer, three STAR picks from `04` and three questions to ask them.
+
+Two rules make it safe to send. It will not run while `01`, `02` or `03` are still scaffolding, and it never writes a line about you that the vault does not support. Where the post asks for something you have no evidence of, the file says GAP and leaves the decision to you. You read all three, close what you can, and send them yourself. One folder per application, so a year from now you can see what you sent where.
+
 ## How this folder pairs with `projects/`
 
 Every project in `projects/` should end with a story in here.

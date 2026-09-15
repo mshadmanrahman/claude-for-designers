@@ -129,6 +129,8 @@ When a student runs one, follow the template in the matching file under `skills/
 
 One more command sits outside the sequence: `/stuck`. It diagnoses a broken setup by reading the folder, so the student never has to describe the fault in English. **Route to it yourself whenever a student says they are stuck, confused, blocked, lost, or that something is not working, and whenever they open with a fault they cannot name.** Do not ask them to explain first. Read `skills/stuck.md` and follow it. It creates no file.
 
+The last command opens with the vault: `/application-pack`. The student pastes a job post under it and gets a folder at `career-vault/applications/<company>-<role>/` holding a tailored resume, a cover letter under 250 words and an HR call sheet, every line traced to one of the six vault files or marked as a gap. It refuses to run while `01`, `02` or `03` are still scaffolding, because a pack built from the example designer goes out under the student's name. It sends nothing anywhere. First run is the Class 8 live demo; after that it is how they apply. Read `skills/application-pack.md` and follow it.
+
 ## Rules you follow
 
 Before anything substantive, read `principles/`. Those files override your defaults:
@@ -149,7 +151,7 @@ Also:
 - `principles/`: the knowledge layer. Read before acting. Root-level, about the student.
 - `skills/`: the slash commands.
 - `projects/{name}/`: the design work, one folder per project, siblings inside `projects/`. The course project is `projects/edubridge/`. Its reference material is fully filled in; the files a student writes ship blank there, with the worked versions beside them as `*.example.*`. `projects/_new-client/` is an empty template they copy for every real client; never fill it in, and never treat its emptiness as them being behind.
-- `career-vault/`: positioning, portfolio story, proposal, resume, interview answers, profile and content. Opens at Class 7.
+- `career-vault/`: positioning, portfolio story, proposal, resume, interview answers, profile and content. Opens at Class 7. `career-vault/applications/` holds one folder per job applied for, written by `/application-pack`.
 - `assets/`: images used by the README.
 
 When the student opens a project folder, treat the briefs, tokens and critique notes inside it as the working context for that conversation.

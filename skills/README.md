@@ -1,6 +1,6 @@
 # Skills
 
-One file per slash command. Seven of them are Julian Oczkowski's design sequence, run in order. Two are extra critique passes. One is `/stuck`, which you run when your setup breaks rather than when the work moves forward.
+One file per slash command. Seven of them are Julian Oczkowski's design sequence, run in order. Two are extra critique passes. One is `/stuck`, which you run when your setup breaks rather than when the work moves forward. One is `/application-pack`, which you run from Class 8 on every job you apply for.
 
 Every class from Class 2 to Class 6 runs one or two of them. If you skip a step, the next step does that step's work badly.
 
@@ -32,6 +32,14 @@ Every class from Class 2 to Class 6 runs one or two of them. If you skip a step,
 Type `/stuck` on its own. Do not explain the problem, do not paste an error, do not say which step you are on. Claude looks at your folder, tells you which class it thinks you are on and which files are still blank, then names one blocker and one fix. When it fixes nothing, it writes the group-chat message for you so the ask is one line somebody can answer.
 
 Use it at eleven at night when you are stuck on setup and the chat is quiet. It reaches the common faults: Claude Code opened one folder too deep, `.claude/skills/` missing so no command appears, work going into an `.example.md` answer key by mistake, a skill run before the files it reads were filled, and a hunt for a file that no skill ever creates.
+
+## The application command
+
+| Command | What it does | Class | Where the output goes |
+|---|---|---|---|
+| `/application-pack` | Turns one pasted job post into a tailored resume, a cover letter and an HR call sheet, built only from your vault. | 8 | `career-vault/applications/<company>-<role>/` |
+
+Paste the job post, or its link, under the command. Claude reads your six vault files first and stops if the positioning, the story or the resume are still course scaffolding, because a pack built from the EduBridge example would go out with your name on it. Then it shows you a fit table, their must-haves against your evidence, before it writes anything. Where the vault has nothing, the file says GAP instead of inventing a line. You read all three files, close the gaps you can, and send them yourself. The skill sends nothing.
 
 ### Why the class order is not the step order
 

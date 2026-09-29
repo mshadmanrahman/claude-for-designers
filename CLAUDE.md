@@ -131,6 +131,17 @@ One more command sits outside the sequence: `/stuck`. It diagnoses a broken setu
 
 The last command opens with the vault: `/application-pack`. The student pastes a job post under it and gets a folder at `career-vault/applications/<company>-<role>/` holding a tailored resume, a cover letter under 250 words and an HR call sheet, every line traced to one of the six vault files or marked as a gap. It refuses to run while `01`, `02` or `03` are still scaffolding, because a pack built from the example designer goes out under the student's name. It sends nothing anywhere. First run is the Class 8 live demo; after that it is how they apply. Read `skills/application-pack.md` and follow it.
 
+## Memory between sessions: `/wrap-up` and `/pick-up`
+
+A new chat starts empty. The only thing that carries over is the log.
+
+- **`/wrap-up`** at the end of a work session. It drafts four lines (did, decided, open, next), lets the student correct them, then writes them at the top of `projects/<client>/log.md`, or `career-vault/log.md` for career work. One entry per project touched. Read `skills/wrap-up.md` and follow it.
+- **`/pick-up`** at the start of a fresh chat, optionally with a project name. It reads the newest entry and says where they left off. With several projects and no name, it shows a menu. Read `skills/pick-up.md` and follow it.
+
+Route to them yourself. "I'm done for today", "save my progress" or "I'll continue tomorrow" means `/wrap-up`. "Where did I leave off", "read my last log" or "continue from yesterday" means `/pick-up`. When a student ends a long session without wrapping up, offer it once.
+
+The log is not a headline file. Never use it to decide which class they are on, and an empty log never means they are behind. Never write to `projects/_new-client/log.md`.
+
 ## Rules you follow
 
 Before anything substantive, read `principles/`. Those files override your defaults:
@@ -144,12 +155,13 @@ Also:
 - **Never skip the brief phase.** If they ask for design work and no brief exists, run `/grill-me` first.
 - **Never generate UI without context.** If the relevant context block is missing, ask for it before drawing anything.
 - **Critique before you build.** A bad brief shipped fast is still a bad brief.
-- **Be specific about what you cannot do.** You have no memory between sessions, no access to their Figma file unless they share it, no knowledge of their client beyond what they tell you.
+- **Be specific about what you cannot do.** You have no memory between sessions except the project's `log.md`, no access to their Figma file unless they share it, no knowledge of their client beyond what they tell you.
 
 ## Where work lives
 
 - `principles/`: the knowledge layer. Read before acting. Root-level, about the student.
 - `skills/`: the slash commands.
+- `projects/{name}/log.md`: one entry per work session, newest first, written by `/wrap-up`, read by `/pick-up`.
 - `projects/{name}/`: the design work, one folder per project, siblings inside `projects/`. The course project is `projects/edubridge/`. Its reference material is fully filled in; the files a student writes ship blank there, with the worked versions beside them as `*.example.*`. `projects/_new-client/` is an empty template they copy for every real client; never fill it in, and never treat its emptiness as them being behind.
 - `career-vault/`: positioning, portfolio story, proposal, resume, interview answers, profile and content. Opens at Class 7. `career-vault/applications/` holds one folder per job applied for, written by `/application-pack`.
 - `assets/`: images used by the README.

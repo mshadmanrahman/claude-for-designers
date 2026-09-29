@@ -1,6 +1,6 @@
 # Skills
 
-One file per slash command. Seven of them are Julian Oczkowski's design sequence, run in order. Two are extra critique passes. One is `/stuck`, which you run when your setup breaks rather than when the work moves forward. One is `/application-pack`, which you run from Class 8 on every job you apply for.
+One file per slash command. Seven of them are Julian Oczkowski's design sequence, run in order. Two are extra critique passes. One is `/stuck`, which you run when your setup breaks rather than when the work moves forward. One is `/application-pack`, which you run from Class 8 on every job you apply for. And two, `/wrap-up` and `/pick-up`, carry your work from one chat to the next.
 
 Every class from Class 2 to Class 6 runs one or two of them. If you skip a step, the next step does that step's work badly.
 
@@ -32,6 +32,15 @@ Every class from Class 2 to Class 6 runs one or two of them. If you skip a step,
 Type `/stuck` on its own. Do not explain the problem, do not paste an error, do not say which step you are on. Claude looks at your folder, tells you which class it thinks you are on and which files are still blank, then names one blocker and one fix. When it fixes nothing, it writes the group-chat message for you so the ask is one line somebody can answer.
 
 Use it at eleven at night when you are stuck on setup and the chat is quiet. It reaches the common faults: Claude Code opened one folder too deep, `.claude/skills/` missing so no command appears, work going into an `.example.md` answer key by mistake, a skill run before the files it reads were filled, and a hunt for a file that no skill ever creates.
+
+## The memory pair
+
+| Command | What it does | Class | Where the output goes |
+|---|---|---|---|
+| `/wrap-up` | Saves today in four lines (did, decided, open, next), after you check them. | 2 onward | Top of `projects/<yours>/log.md`, or `career-vault/log.md` for career work |
+| `/pick-up` | Reads your last entry in a fresh chat and tells you where you left off. Add a project name to skip the menu: `/pick-up acme`. | 2 onward | No file. It answers in the session. |
+
+A new chat remembers nothing. Type `/wrap-up` before you close one and `/pick-up` when you open the next, and yesterday is back in ten seconds. Your log also becomes the raw material for your case study in Class 7, because it holds every decision and the reason you made it.
 
 ## The application command
 

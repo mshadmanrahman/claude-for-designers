@@ -77,7 +77,7 @@ Write the story of the screen you built in Class 6. Answer each part in place, i
 
 Two rules while you write. Every sentence in parts 2 through 5 should have you as the subject of the verb, not Claude. And no part is optional, including part 5.
 
-When the five parts are drafted, open Claude Code at the root of this workspace on Sonnet 5 at medium effort and ask it to find every sentence where the tool is the subject instead of you, and every claim you have not backed with something specific. Then fix them yourself. Do not let it rewrite the story; it will make it sound like everyone else's. Fits in one session.
+When the five parts are drafted, open Claude Code at the root of this workspace on the latest Sonnet at medium effort and ask it to find every sentence where the tool is the subject instead of you, and every claim you have not backed with something specific. Then fix them yourself. Do not let it rewrite the story; it will make it sound like everyone else's. Fits in one session.
 
 ### 1. What was the brief?
 

@@ -187,7 +187,7 @@ The test for every answer: pull out the sentence that names the decision. If you
 
 Use STAR for questions 2, 3, 4 and 5. Two sentences per part, plus one line on what you learned.
 
-When the drafts are done, open Claude Code at the root of this workspace on Sonnet 5 at medium effort. Ask it to interview you: it asks the question, you answer from memory without looking, then it tells you which decision you failed to name. Do that round three times. Fits in one session.
+When the drafts are done, open Claude Code at the root of this workspace on the latest Sonnet at medium effort. Ask it to interview you: it asks the question, you answer from memory without looking, then it tells you which decision you failed to name. Do that round three times. Fits in one session.
 
 ### 1. What do you say when someone insinuates AI did your work?
 

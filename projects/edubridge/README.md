@@ -65,7 +65,7 @@ Then:
 2. Run `/frontend-design` with your brief, your `critique-notes.md` synthesis and your `tokens.md` in context, and have it write to `my-booking-screen.html`. That is the whole point of the previous three weeks: the quality of the screen is the quality of those three files.
 3. Open `my-booking-screen.html` in a browser on a phone-width viewport and look at it. Then audit it, and fix what the audit finds.
 
-Sonnet 5 at medium effort. Building the screen fits in one session. Building it and then auditing and fixing it needs two, so do not start the build twenty minutes before you have to leave.
+The latest Sonnet at medium effort. Building the screen fits in one session. Building it and then auditing and fixing it needs two, so do not start the build twenty minutes before you have to leave.
 
 Claude Code writes the HTML. You decide what the screen is for, who it is for, and whether what came back is good enough to send. Nobody who has not done Classes 3 to 5 can make those calls, which is the answer to whether this replaces you.
 

@@ -266,7 +266,7 @@ One post a week, same day each week, roughly the same time. Pick your day and ke
 
 Write yours below. Pull the headline from `01-positioning.md` and the post material from `02-portfolio-story.md`; if those are done honestly, you are mostly editing rather than writing.
 
-One warning before you start. This is the file where it is most tempting to let Claude write the whole thing, and the one where that is most obvious to a reader. Draft in your own words first, then use Claude Code at the root of this workspace on Sonnet 5 at medium effort to cut length and catch anything that reads like marketing copy. Ask it specifically to flag sentences that could have been written by any designer about any project. Fits in one session.
+One warning before you start. This is the file where it is most tempting to let Claude write the whole thing, and the one where that is most obvious to a reader. Draft in your own words first, then use Claude Code at the root of this workspace on the latest Sonnet at medium effort to cut length and catch anything that reads like marketing copy. Ask it specifically to flag sentences that could have been written by any designer about any project. Fits in one session.
 
 ### 1. What is your headline and about section?
 

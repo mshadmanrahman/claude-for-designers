@@ -33,7 +33,7 @@ Once your answers are in, delete everything above `YOUR TURN`. The scaffolding e
 
 These files are the difference between output you can ship and output that reads as generic AI work. That is not a motivational claim, it is the mechanism: Claude has no memory of you between sessions, so whatever is not written here gets replaced by an average drawn from everything it has seen. The average is generic by construction.
 
-The two Class 4 files carry the most weight. If Sonnet keeps producing design you would not show a client, an empty `design-taste.md` and an empty `anti-ai-slop.md` are the reason, and filling them in is the fix. Sonnet 5 at medium effort works at the level of the taste you hand it.
+The two Class 4 files carry the most weight. If Sonnet keeps producing design you would not show a client, an empty `design-taste.md` and an empty `anti-ai-slop.md` are the reason, and filling them in is the fix. The latest Sonnet at medium effort works at the level of the taste you hand it.
 
 ## The contract lives in two places
 

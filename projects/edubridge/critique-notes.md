@@ -22,7 +22,7 @@ Everything between here and `## YOUR TURN` is teaching material. Delete it once 
 
 ## How you produce it
 
-Generate a first-pass screen from the confused brief on purpose. Then, in one Claude Code session on Sonnet 5 at medium effort:
+Generate a first-pass screen from the confused brief on purpose. Then, in one Claude Code session on the latest Sonnet at medium effort:
 
 1. Run `/design-review` on the screen. It gives you the structured pass.
 2. Run `/heuristic-evaluation` on the same screen. Nielsen's ten, every finding tied to one element and one fix.

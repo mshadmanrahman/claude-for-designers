@@ -105,7 +105,7 @@ Agency or consulting roles: profile and bullets emphasizing brief interrogation,
 
 Fill in each section below in place. Pull from `01-positioning.md` and `02-portfolio-story.md` rather than starting fresh; if those two files are honest, most of this is already written.
 
-When the draft is done, open Claude Code at the root of this workspace on Sonnet 5 at medium effort and ask it to do two passes. First, find every bullet that describes a task rather than a decision, and every number you cannot source. Second, cut the whole thing to one page. Then make the edits yourself. Fits in one session.
+When the draft is done, open Claude Code at the root of this workspace on the latest Sonnet at medium effort and ask it to do two passes. First, find every bullet that describes a task rather than a decision, and every number you cannot source. Second, cut the whole thing to one page. Then make the edits yourself. Fits in one session.
 
 ### 1. Header and profile
 

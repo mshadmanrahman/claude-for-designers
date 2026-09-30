@@ -25,7 +25,7 @@ Everything between here and `## YOUR TURN` is teaching material. Delete it once 
 
 Read `brief-v1-client.md` and `brief-v2-pm-thread.md` first. Both, in full, before you write anything.
 
-Then, in one Claude Code session on Sonnet 5 at medium effort, opened at this project folder:
+Then, in one Claude Code session on the latest Sonnet at medium effort, opened at this project folder:
 
 1. Run `/design-brief` with both briefs in context. It will not resolve the contradictions for you. It will name them, and it will ask you to decide.
 2. Write your decisions into `## YOUR TURN` below. In your words, not Claude's.

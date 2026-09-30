@@ -25,7 +25,7 @@ That's all the setup there is. You don't need Git or a terminal, and nothing nee
 > **Before you start**
 > - You need **Claude Pro**, about $20 a month. There is no free path for this course.
 > - **Use your own account.** Shared accounts get locked mid-course.
-> - Use **Sonnet 5 at medium effort** for everything.
+> - Use **the latest Sonnet at medium effort** for everything.
 
 ## Every work session
 

@@ -81,7 +81,7 @@ You install them in Class 2, because Class 2 is the first class that runs one (`
 
 If the install has not worked yet, you are not blocked. Open the skill file, copy the whole thing into your Claude Code session, then name the file you want it run against. Same text, same behaviour. Bring the broken install to the class or the office hour.
 
-Model: Sonnet 5 at medium effort, for every one of them. Each skill fits in one Claude session. Class 6 is the exception: `/brief-to-tasks` and then `/frontend-design` needs two sessions, because the build session has to hold your tokens file the whole way through.
+Model: the latest Sonnet at medium effort, for every one of them. Each skill fits in one Claude session. Class 6 is the exception: `/brief-to-tasks` and then `/frontend-design` needs two sessions, because the build session has to hold your tokens file the whole way through.
 
 ## Running /grill-me without drowning
 

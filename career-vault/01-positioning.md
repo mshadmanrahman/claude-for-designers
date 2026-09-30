@@ -75,7 +75,7 @@ This is the casual version, for a meetup or a comment thread. The full interview
 
 Answer each question in place, directly under the question. Write in your own words, in the language you actually speak in.
 
-When you are done, open Claude Code at the root of this workspace, on Sonnet 5 at medium effort, and ask it to pressure-test your answers against the evidence in `projects/`. Ask it to flag any claim you cannot prove with a file. Fits in one session.
+When you are done, open Claude Code at the root of this workspace, on the latest Sonnet at medium effort, and ask it to pressure-test your answers against the evidence in `projects/`. Ask it to flag any claim you cannot prove with a file. Fits in one session.
 
 ### 1. What is your one-sentence positioning?
 

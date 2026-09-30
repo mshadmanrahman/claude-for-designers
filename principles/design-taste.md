@@ -14,7 +14,7 @@ tags: [ostad, batch-02, workbook, principles, design-taste, student-editable]
 
 **Which class:** Class 4, Claude as Critic. It runs alongside `anti-ai-slop.md` and the `/design-review` skill.
 
-**If Sonnet keeps handing you design you would not ship, this is the file that fixes it.** Not a bigger model. This file filled in, plus `anti-ai-slop.md`, plus `/design-review` run on the output. Sonnet 5 at medium effort produces work at the level of the taste you gave it. An empty taste file is the whole explanation.
+**If Sonnet keeps handing you design you would not ship, this is the file that fixes it.** Not a bigger model. This file filled in, plus `anti-ai-slop.md`, plus `/design-review` run on the output. The latest Sonnet at medium effort produces work at the level of the taste you gave it. An empty taste file is the whole explanation.
 
 <!--
 COURSE NOTE for the student. This is not an instruction to Claude.
